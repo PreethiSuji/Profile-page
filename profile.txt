@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+
+<body>
+    <div class="profile">
+        <h2 class="profile1">
+            <bold>Profile</bold>
+        </h2>
+        <p>I'm a Computer Science Engineer</p>
+    </div>
+    <div>
+     <img src="IMG-20230424-WA0003.jpg" alt="preethi">
+    </div>
+    <div class="about">
+
+        <h2 id="aboutme">
+            <bold>About me</bold>
+        </h2>
+        <p>Myself Preethi,I'm currently in my 3<sup>rd</sup> year of studying
+            BE Computer Science and Engineering at RVS Technical Campus Coimbatore.
+             I'm willing to discover and accept new ideas which can be put into 
+                        practice effectively.
+        </p>
+
+    </div>
+    <div class="details">
+        <h2>Details</h2>
+        <h3>
+            <bold>Name:</bold>
+        </h3>
+        <p class="name">Preethi M</p>
+        <h3>
+            <bold>Age:</bold>
+        </h3>
+        <p class="name">20 years</p>
+        <h3>
+            <bold>Location:</bold>
+        </h3>
+        <p class="name">Coimbatore,TamilNadu,India</p>
+    </div>
+    <div class="socialMedia">
+    </div>
+</body>
+<style>
+    body {
+        text-align: center;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .profile1 {
+        font-size: 30px;
+    }
+    img{
+        width:15%;
+        border-radius: 50%;
+    }
+    
+
+    div.about {
+        background-color: rgb(120, 125, 224);
+        width: 500px;
+        padding: 10px;
+        padding-top: 10px;
+        margin: auto;
+        color: white;
+        font-family:sans-serif;
+    }
+
+</style>
+
+</html>
